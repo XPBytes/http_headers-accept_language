@@ -4,7 +4,7 @@
 [![Gem Version](https://badge.fury.io/rb/http_headers-accept_language.svg)](https://badge.fury.io/rb/http_headers-accept)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Authorize a certain block with cancan
+:nut_and_bolt: Utility to parse and sort the "Accept-Language" HTTP Header
 
 ## Installation
 
