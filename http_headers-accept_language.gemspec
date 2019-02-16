@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "http_headers/accept_language"
+require "http_headers/accept_language/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "http_headers-accept_language"
