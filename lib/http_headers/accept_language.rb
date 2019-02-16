@@ -1,12 +1,12 @@
 require 'http_headers/utils'
+require 'delegate'
 
 module HttpHeaders
-  class AcceptLanguage < Utils::List
-    VERSION = "0.1.0"
+  class AcceptLanguage < DelegateClass(Array)
+    VERSION = '0.2.0'
 
     def initialize(value)
-      super value, entry_klazz: AcceptLanguage::Entry
-      sort!
+      __setobj__ HttpHeaders::Utils::List.new(value, entry_klazz: Entry)
     end
 
     class Entry
@@ -40,7 +40,7 @@ module HttpHeaders
         parameters.fetch(String(parameter).to_sym)
       end
 
-      def inspect
+      def to_header
         to_s
       end
 
