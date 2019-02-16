@@ -57,6 +57,13 @@ Each parsed entry has the following methods:
 - `[](parameter)`: accessor for the parameter; throws if it does not exist
 - `to_s`: encode back to an entry to be used in a `Accept-Language` header
 
+## Related
+
+- [HttpHeaders::Utils](https://github.com/XPBytes/http_headers-utils): :nut_and_bolt: Utility belt for the HttpHeader libraries
+- [HttpHeaders::Accept](https://github.com/XPBytes/http_headers-accept): :nut_and_bolt: Utility to parse and sort the "Accept" HTTP Header
+- [HttpHeaders::ContentType](https://github.com/XPBytes/http_headers-content_type): :nut_and_bolt: Utility to parse and sort the "Content-Type" HTTP Header
+- [HttpHeaders::Link](https://github.com/XPBytes/http_headers-link): :nut_and_bolt: Utility to parse and sort the "Link" HTTP Header
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can
