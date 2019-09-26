@@ -8,10 +8,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     http_headers-utils (0.2.0)
-    minitest (5.11.3)
+    minitest (5.12.0)
     rake (10.5.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
