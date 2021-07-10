@@ -9,7 +9,7 @@ GEM
   specs:
     http_headers-utils (0.2.0)
     minitest (5.14.4)
-    rake (13.0.4)
+    rake (13.0.6)
 
 PLATFORMS
   ruby
