@@ -8,7 +8,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     http_headers-utils (0.2.0)
-    minitest (5.15.0)
+    minitest (5.16.0)
     rake (13.0.6)
 
 PLATFORMS
